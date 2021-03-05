@@ -109,9 +109,13 @@ nav li a:hover  {
     font-weight: 600;
 }
 
+.not-days {
+    text-align: center;
+}
+
 table {
     margin-left: 1em;
-    width: auto;
+    width: 100%;
     height: auto;
     font-size: 3vw;
 }
