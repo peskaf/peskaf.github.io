@@ -1,0 +1,129 @@
+/* font import!!!*/
+
+body {
+    margin: 0;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: white;
+}
+
+.navbar .logo {
+    margin-top: 6px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar nav {
+    display: none;
+}
+
+.navbar header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding: .8em 1.2em;
+}
+
+
+
+.mobile-menu {
+    width: 25px;
+    height: auto;
+    margin-right: 20%;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+.exit-btn {
+    width: 25px;
+    height: auto;
+    fill: white;
+    float: right;
+    cursor: pointer;
+    margin: .5em;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+nav.mobile-btn {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    width: 66%;
+    background: #20272E;
+    height: 100vh;
+    padding: 1em;
+}
+
+nav ul {
+    margin-top: 5em;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .5em;
+    font-size: 1.3em;
+    text-align: right;
+    font-weight: normal;
+}
+
+nav li a:hover  {
+    font-weight: bold;
+}
+
+.table-heading {
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 1em;
+    font-size: 4.5vw;
+}
+
+.hours {
+    font-weight: 700;
+    text-align: center;
+}
+
+.not-hours {
+    font-weight: 600;
+}
+
+table {
+    margin-left: 1em;
+    width: auto;
+    height: auto;
+    font-size: 3vw;
+}
+
+tr {
+    text-align: left;
+}
+
+th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+

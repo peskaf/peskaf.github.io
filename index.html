@@ -1,9 +1,95 @@
-<!doctype html>
-<html>
-  <head>
-    <title>HŠ</title>
-  </head>
-  <body>
-    <p><strong>čus</strong></p>
-  </body>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUDr. Helena Štefanová</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <header>
+
+                <a class="logo" href="#">MUDr. Helena Štefanová</a>
+
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="mobile-menu" id="mobile-menu">
+                </a>
+
+                <nav>
+                    <img src="images/exit.svg" alt="exit menu" class="exit-btn hide-desktop" id="mobile-exit">
+                    
+                    <ul class="show-desktop" id="nav">
+                        <li><a href="#">O nás</a></li>
+                        <li><a href="#">Aktuality</a></li>
+                        <li><a href="#">Další informace</a></li>
+                        <li><a href="#">Ceník</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2 class="table-heading">Ordinační doba</h2>
+            <!-- rectangle? -->
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th class="not-hours">Bez objednání</th>
+                    <th class="not-hours">Objednaní</th>
+                </tr>
+                <tr>
+                    <th class="not-hours">Pondělí</th>
+                    <th class="hours">7-10</th>
+                    <th class="hours">10-13</th>
+                </tr>
+                <tr>
+                    <th class="not-hours">Úterý</th>
+                    <th class="hours">7-10</th>
+                    <th class="hours">10-14</th>
+                </tr>
+                <tr>
+                    <th class="not-hours">Středa</th>
+                    <th class="hours">13-17</th>
+                    <th class="hours">17-19</th>
+                </tr>
+                <tr>
+                    <th class="not-hours">Čtvrtek</th>
+                    <th class="hours">7-10</th>
+                    <th class="hours">10-13</th>
+                </tr>
+                <tr>
+                    <th class="not-hours">Pátek</th>
+                    <th class="hours">7-10</th>
+                    <th class="hours">10-12</th>
+                </tr>
+            </table>
+
+
+            <img src="images/main_pic.svg" alt="doctor" class="doctor hide-mobile">
+        </section>
+    </div>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-menu');
+        const nav = document.querySelector('nav');
+        const mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('mobile-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('mobile-btn');
+        })
+
+    </script>
+
+</body>
 </html>
