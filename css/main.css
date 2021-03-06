@@ -142,8 +142,7 @@ td {
 }
 
 .doctor {
-    display: block;
-    width: 140%;
+    margin-top: 1em;
 }
 
 .logo {
