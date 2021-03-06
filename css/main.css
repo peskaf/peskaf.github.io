@@ -180,5 +180,12 @@ td {
     border-radius: 25px;
 }
 
+.email {
+    line-height: 2; 
+}
+
+.address {
+    line-height: 1;
+}
 
 
