@@ -141,6 +141,30 @@ td {
     background-color: #f3f3f3;
 }
 
+.contact {
+    font-size: 4vw;
+    font-weight: 600;
+    color: white;
+    background-color: #f3f3f3;
+}
+
+.contact h2 {
+    margin-left: 1em;
+    font-weight: 600;
+}
+
+.contact p {
+    margin-left: 1.4em;
+}
+
+.contact-border {
+    margin-top: -.5em;
+    padding-top: .1em;
+    padding-bottom: .9em;
+    background-color: #000000;
+    border-radius: 25px;
+}
+
 .doctor {
     margin-top: 1em;
 }
@@ -153,7 +177,7 @@ td {
     padding-top: .1em;
     padding-bottom: .9em;
     background-color: #EBEBEB;
-    border-radius: 6%;
+    border-radius: 25px;
 }
 
 
