@@ -188,4 +188,9 @@ td {
     line-height: 1;
 }
 
+a[href^="tel:"] {
+    text-decoration: none;
+    color: darkgray;
+  }
+
 
